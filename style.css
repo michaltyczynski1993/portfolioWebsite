@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgb(49, 49, 49);
+    background-color: #34353a;
     color: rgb(233, 233, 233);
 }
 
@@ -62,11 +62,35 @@ footer {
 .flex-center {
     align-items: center;
     justify-content: center;
+    padding: 1rem 0;
 }
 
 .flex-items {
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skill-card {
+    width: 10rem;
+    height: 11rem;
+    background-color: #2e2f34;
+    -webkit-box-shadow: 0px 0px 10px -6px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 10px -6px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px -6px rgb(0, 0, 0);
+    margin: 1rem 0;
+}
+
+.skill-card:hover {
+    -webkit-box-shadow: 0px 0px 29px -6px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 29px -6px rgb(0, 0, 0);
+    box-shadow: 0px 0px 29px -6px rgb(0, 0, 0);
+}
+
+.skill-card>* {
+    padding: 50% 0;
 }
 
 /* Logo */
@@ -167,6 +191,18 @@ footer {
     top: 0;
 }
 
+#portfolio {
+    background-color: #2e2f34;
+    height: 50vh;
+}
+
+i:hover {
+    color: rgb(193, 193, 193);
+}
+
+footer {
+    background-color: #34353a;
+}
 
 /* Responsiveness */
 @media (min-width: 768px) {
