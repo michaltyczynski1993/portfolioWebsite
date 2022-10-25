@@ -221,9 +221,17 @@ i {
     margin-right: 0.5rem;
 }
 
-.vl {
-    border-left: 0.2rem solid #2b2c30;
+.contacts,
+.socials {
+    text-align: center;
+    margin-bottom: 0.7rem;
 }
+
+.contacts,
+.socials>* {
+    margin-bottom: 0.4rem;
+}
+
 
 /* Responsiveness */
 @media (min-width: 768px) {
