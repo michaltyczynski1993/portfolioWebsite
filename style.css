@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -200,10 +201,20 @@ i:hover {
     color: rgb(193, 193, 193);
 }
 
+/* Footer */
 footer {
     background-color: #34353a;
 }
 
+.footer-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vl{
+    border-left: 0.2rem solid #2b2c30;
+}
 /* Responsiveness */
 @media (min-width: 768px) {
     .nav {
