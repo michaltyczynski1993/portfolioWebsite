@@ -18,6 +18,19 @@ a {
     color: white;
 }
 
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
 ul {
     list-style: none;
 }
@@ -39,6 +52,7 @@ ul {
 .info:hover {
     background: #ffffff;
     color: rgb(0, 0, 0);
+    transition: 0.5s;
 }
 
 /* Header */
@@ -97,9 +111,9 @@ ul {
 }
 
 .skill-card:hover {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(220, 220, 227, 1);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(220, 220, 227, 1);
-    box-shadow: 0px 0px 5px 0px rgba(220, 220, 227, 1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(240, 220, 227, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(240, 240, 227, 1);
+    box-shadow: 0px 0px 5px 0px rgba(240, 240, 227, 1);
 }
 
 .skill-card>i:hover {
@@ -213,7 +227,7 @@ ul {
 }
 
 #portfolio {
-    background-color: #0D0C13;
+    background-color: #0a090e;
     height: 50vh;
     width: 100%;
 }
